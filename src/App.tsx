@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import ProjectDescription from "./components/ProjectDescription";
 import ProjectOverview from "./components/ProjectOverview";
 import ProjectStatistics from "./components/ProjectStatistics";
 
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <ProjectOverview />
       <ProjectStatistics />
+      <ProjectDescription />
     </div>
   );
 };

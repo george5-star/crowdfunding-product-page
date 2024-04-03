@@ -14,6 +14,7 @@ export default {
       "neutral-black": "hsl(0, 0%, 0%)",
       "neutral-dark-gray": "hsl(0, 0%, 48%)",
       "neutral-white": "hsl(0, 0%, 100%)",
+      "neutral-off-white": "hsl(0, 0%, 90%)",
     },
     fontFamily: {
       sans: ["Commissioner", "sans-serif"],
