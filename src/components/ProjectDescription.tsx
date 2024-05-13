@@ -1,6 +1,10 @@
 import Pledge from "./Pledge";
 import data from "../../data.json";
 
+// interface ProjectDescriptionProps {
+//   onClick: () => void;
+// }
+
 const pledgeVariants = data.map((pledge) => {
   return (
     <Pledge
