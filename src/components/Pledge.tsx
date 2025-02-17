@@ -3,12 +3,17 @@ interface PledgeProps {
   price: string;
   description: string;
   count: number;
+  // onClick: () => void;
 }
 
 const countZeroStyles = {
   opacity: 0.5,
   color: "hsl(0, 0%, 48%)",
 };
+
+// const handleClick = () => {
+//   console.log("hello");
+// };
 
 const Pledge = ({ title, price, description, count }: PledgeProps) => {
   return (

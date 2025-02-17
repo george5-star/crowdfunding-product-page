@@ -12,7 +12,9 @@ const Header = () => {
   return (
     <div className="min-h-80 bg-[url('../../src/assets/images/image-hero-mobile.jpg')] lg:bg-[url('../../src/assets/images/image-hero-desktop.jpg')] bg-center bg-cover bg-no-repeat">
       <nav className="px-4 relative container py-10 mx-auto flex items-center justify-between">
-        <img src={BrandLogo} alt="brand logo" />
+        <a href="#">
+          <img src={BrandLogo} alt="brand logo" />
+        </a>
         <button className="lg:hidden" onClick={handleToggle}>
           {showMenu ? (
             <img src={Close} alt="close icon" />
